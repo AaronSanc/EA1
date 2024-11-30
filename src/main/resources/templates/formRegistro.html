@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registro Exitoso</title>
+</head>
+<body>
+    <h1>¡Registro Exitoso!</h1>
+    
+    <p>Producto registrado:</p>
+    <p>Nombre: <span th:text="${producto.nombre}"></span></p>
+    <p>Fecha de caducidad: <span th:text="${producto.fechaCaducidad}"></span></p>
+    <p>Stock mínimo: <span th:text="${producto.stockMinimo}"></span></p>
+    <p>Stock máximo: <span th:text="${producto.stockMaximo}"></span></p>
+    <p>Precio unitario: <span th:text="${producto.precioUnitario}"></span></p>
+    <p>Categoría: <span th:text="${producto.categoria}"></span></p>
+    <p>Marca: <span th:text="${producto.marca}"></span></p>
+    
+</body>
+</html>
